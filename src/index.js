@@ -22,7 +22,7 @@ const publicDirectoryPath = path.join(__dirname, '../public');
 app.use(express.static(publicDirectoryPath));
 
 io.on('connection', (socket) => {
-    console.log('new socket connection')
+//     console.log('new socket connection')
 
     // socket.broadcast.emit('message', 'A new user has joined')
     
